@@ -1,0 +1,108 @@
+/*This file contains the information about the styling of the code, of the frontend. It also includes information about the scree size, border length etc.*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/*body of the screen covered here*/
+body {
+    align-items: center;
+    background: rgb(11, 11, 11);
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 10);
+    border: 3px solid rgba(28, 8, 8, 0.01);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0);
+    color: #232323;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(112, 132, 143, 0.282);
+    border: 1px solid rgba(255, 255, 255, 100);
+    flex-basis: 400px;
+    height: 500px;
+    padding: 20px 35px;
+    
+}
+
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 10);
+    border: 3px solid rgba(255, 255, 255, 10);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 26px;
+    overflow: auto;
+    text-align: right;
+    width: 350px;
+}
+
+.calc-button-row {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+.calc-button {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 10);
+    border: 3px solid rgba(255, 255, 255, 10);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 30px;
+    height: 70px;
+}
+
+.calc-button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 10);
+    border: 2px solid rgba(255, 255, 255, 10);
+    border-radius: 10px;
+    color: #000000;
+    background-color: rgb(134, 164, 182);
+}
+
+.calc-button:hover {
+    background-color: inherit;
+}
+.calc-button:last-child:hover {
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+}
+
+.calc-button:active {
+    background-color: rgb(117, 209, 204);
+}
+
+.double {
+    flex-basis: 70%;
+}
+
+.triple {
+    flex-basis: 46%;
+}
