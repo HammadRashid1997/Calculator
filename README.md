@@ -15,6 +15,3 @@ Hammad Rashid
 3. Multiplication
 4. Division
 5. Percentage
-
-
-
