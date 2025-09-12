@@ -27,11 +27,9 @@ def factorial(x):
     else:
         return x * factorial(x - 1)
 
-
 # Percentage of a number
 def percentage(x):
     return x / 100
-
 
 # Power of number
 def powerNumber(x, y):
@@ -43,7 +41,6 @@ def powerNumber(x, y):
         return 1 / (x ** abs(y))
     return x ** y
 
-
 # Square root of a number
 def squareRoot(x):
     if x < 0:
@@ -52,7 +49,6 @@ def squareRoot(x):
         return x
     return x ** 0.5
 
-
 # Cube root of a number
 def cubeRoot(x):
     if x < 0:
@@ -60,7 +56,6 @@ def cubeRoot(x):
     elif x == 0 or x == 1:
         return x
     return x ** (1 / 3)
-
 
 # User input
 num1 = float(input("Enter first number: "))
